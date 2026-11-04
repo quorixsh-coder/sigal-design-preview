@@ -1,0 +1,10 @@
+# Demo preview (state A): not for search engines until the business approves.
+# Link-preview bots (WhatsApp/Facebook) may read the page so the preview card shows.
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: *
+Disallow: /
